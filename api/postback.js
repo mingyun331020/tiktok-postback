@@ -6,7 +6,7 @@ export default async (req, res) => {
   }
 
   const pixelCode = 'D1BOKVBC77U8DLILC8M0';
-  const accessToken = '31fcc0bf896bae1506206262bd38ef3e38f003a3';
+  const accessToken = 'afbc4a3ba41ad61f4a69fb6d77f9e8097176d631';
 
   try {
     const response = await fetch('https://business-api.tiktok.com/open_api/v1.3/pixel/track/', {
